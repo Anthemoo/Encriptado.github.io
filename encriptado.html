@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    
+    <title>Desafio encriptado Alura</title>
+</head>
+
+<body class="fondo">
+    <header>
+        <h1><img src="descarga.png" class="imagen"></h1>
+    </header>
+    <div class="caja">
+        
+        <h1><strong>Inserte para encriptar texto</strong></h1>
+        <imput onkeypress="return (event.charCode >= 97 && event.charCode <= 122)" >
+        <textarea name="Texto encriptado" id="textoUno" cols="80" rows="30"></textarea>
+        </imput>
+
+        <p class="textox">solo letras minusculas y sin acentos</p>
+        <imput> 
+        <button  class="boton" onclick="encriptador()" >Encriptador</button >
+        </imput>
+        <imput> 
+        <button  class="boton" onclick="desencriptador()" >desencriptado</button>
+        </imput>
+    </div>
+  
+    <div class="cajaDos">
+        <h1><strong>Texto encriptado</strong></h1>
+        <textarea name="Texto-encriptado" id="textoDos" cols="80" rows="32"></textarea>
+        
+        
+        
+        <button class="boton" onclick="copiartexto()" >Copiar texto</button>
+        
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+    <float>
+        <p>asdasdas</p>
+    </float>
+</html>
+
